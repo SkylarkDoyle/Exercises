@@ -10,6 +10,7 @@
 5. Style the HTML elements according to  instructions
 6. Create a tic-tac-toe board using HTML Table and styling with CSS.
 7. Create Css Blog from scratch
+## JS
 8. Create JS Stalker Exercise using variables, Strings, Prompt, and Console.log
 9. Create Age Calculator that displays days you've been alive
 10. While Loops Problem Set. Hint: Check your console!
