@@ -1,0 +1,39 @@
+*{
+	
+	font-family: Cambria;
+	font-weight: 600;
+}
+
+
+.blog{
+	width: 700px;
+	width: 80%;
+	border: 20px solid #bdc3c7;
+	margin: 10px auto;
+	padding:  20px;
+}
+
+.date{
+	color: #3498db;
+	margin: 20px 0;
+	letter-spacing: 5px;
+
+}
+
+h1{
+	font-size: 30px;
+}
+
+p{
+	
+	font-size: 15px;
+}
+
+.border{
+	border-left: 10px solid #bdc3c7;
+	padding-left: 7px;
+}
+
+hr{
+	margin: 15px 0;
+}
