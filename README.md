@@ -17,3 +17,11 @@
 11. For Loops Problem Set.   Hint: Check your console! --forloops.html AND forloops.js
 12. Functions Problem Exercise... --funcprob.html AND funcprob.js
 13. Using Javascript to toggle background color --toggle.html AND toggle.js
+
+
+##aboutme.html  --DONE!!
+ 1. Add a script tag to the bottom.
+ 2. Change the body style so it has a font-family of "Arial, sans-serif
+ 3. Replace each of the spans (nickname, favorites, hometown) with your own information
+ 4. Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red
+ 5.Create a new img element and set its src attribute to a picture of you. Append that element to the page
