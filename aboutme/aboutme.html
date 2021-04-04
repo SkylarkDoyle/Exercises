@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>About me</title>
+
+	<style type="text/css">
+		.listitem{
+			color: #ff0101;
+		}
+	</style>
+</head>
+<body>
+	<h1>About Me</h1>
+
+  <ul>
+    <li>Nickname: <span id="nickname"></span>
+    <li>Favorites:  <span id="favorites"></span>
+    <li>Hometown: <span id="hometown"></span>
+   </ul>
+
+
+
+    <!-- 1. Add a script tag to the bottom. -->
+	<script type="text/javascript">
+  		//2. Change the body style so it has a font-family of "Arial, sans-serif". 
+var body = document.querySelector("body");
+ body.style.fontFamily = "Arial, sans-serif";
+		//2. Replace each of the spans (nickname, favorites, hometown) with your own information.
+ //My nickname		
+var nickname = document.getElementById("nickname");
+	nickname.textContent = "Skylark Doyle";
+// my favorite thing to do
+var fav = document.getElementById("favorites");
+   fav.textContent = "Art actually";
+//my hometown
+var hometown = document.getElementById("hometown");
+   hometown.textContent = "Ikotun";
+   
+   //4.Iterate through each li and change the class to "listitem". Add a style tag that sets a rule for "listitem" to make the color red.
+var lis = document.querySelectorAll("li");
+   for(var i =0; i < lis.length; i++){
+	lis[i].classList.add("listitem");
+   }
+
+//5. Create a new img element and set its src attribute to a picture of you. Append that element to the page.
+
+var img = document.createElement("img");
+ img.src = "img/coolpic.jpg";
+//additional --just for the width
+  img.style.width = "50%";
+     body.appendChild(img);
+
+
+	</script>
+
+</body>
+</html>
